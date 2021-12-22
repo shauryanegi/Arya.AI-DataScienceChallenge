@@ -1,0 +1,7 @@
+,Train Accuracy,Test Accuracy,Best Hyper Parameters
+KNN,0.8468670076726342,0.7941176470588235,"{'algorithm': 'ball_tree', 'n_neighbors': 7}"
+Logistic Regression,0.8804347826086957,0.8554987212276215,"{'C': 1000.0, 'penalty': 'l2'}"
+Decision Tree,0.9440537084398977,0.9092071611253197,"{'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 8}"
+Random Forest,0.9808184143222506,0.9309462915601023,"{'max_depth': 15, 'max_features': 'auto', 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 160}"
+XGBoost,0.9325447570332481,0.907928388746803,"{'subsample': 1.0, 'n_estimators': 190, 'min_child_weight': 1, 'max_depth': 3, 'gamma': 5, 'colsample_bytree': 0.8}"
+LightGBM,0.9987212276214834,0.9245524296675192,"{'colsample_bytree': 0.7173613575636579, 'min_child_samples': 134, 'min_child_weight': 1e-05, 'num_leaves': 14, 'reg_alpha': 0, 'reg_lambda': 20, 'subsample': 0.5813098915332424}"
