@@ -27,22 +27,22 @@ I prefered to use an embedded feature selection tool like LightGBM for feature s
 
 This was a fairly simple dataset which was a little odd because it was a little too easy to have a good accuracy on the test set. I decided to go for accuracy over other metrics to see how well I would get the average in a real context. I started by creating my preprocessing pipeline. I split the dataset into a train and test set using an 80:20 split.
 
-## We would be using simple ML models like Logistic Regression, Decision Trees and maybe a Random Forest to better visualize and understand the data after modelling. 
+### We would be using simple ML models like Logistic Regression, Decision Trees and maybe a Random Forest to better visualize and understand the data after modelling. 
 
 
-## Based on all the models we saw, we can say that the best model is the Random Forest model based on the test set.
+### Based on all the models we saw, we can say that the best model is the Random Forest model based on the test set.
 
 ### But here is a question:
 
-## Are we sure that the Random Forest model is the best model based on business requirements?
+### Are we sure that the Random Forest model is the best model based on business requirements?
 
-## Are we more concerned with the accuracy of the model or the interpretability of the model?
+### Are we more concerned with the accuracy of the model or the interpretability of the model?
 
-## We are concerned with the accuracy-interpretability tradeoff in this case.
+### We are concerned with the accuracy-interpretability tradeoff in this case.
 
-## Let me use my intuition: Since we have very limited data, and the accuracies of the simpler models and the more complex models are very similar in the test set, we can say to use a simpler model like Decision Tree for our final dataset to understand the data better as well as to get a better understanding of the model.
+### Let me use my intuition: Since we have very limited data, and the accuracies of the simpler models and the more complex models are very similar in the test set, we can say to use a simpler model like Decision Tree for our final dataset to understand the data better as well as to get a better understanding of the model.
 
 
-## As we can see, the features which are most important for the Random Forest model are conciding with the decision tree which we plot. So, from calculation we can say that features like X52, X53, X55 and X25 etc.
+### As we can see, the features which are most important for the Random Forest model are conciding with the decision tree which we plot. So, from calculation we can say that features like X52, X53, X55 and X25 etc.
 
 
