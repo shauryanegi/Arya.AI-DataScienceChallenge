@@ -1,6 +1,6 @@
 # Arya.AI-DataScienceChallenge
 
-This dataset has no null values, duplicate features, very few outliers (which I ignored as it did not have a huge impact on the data) so the data preprocessing was fairly simple.
+This dataset has no null values, duplicate features, very few outliers (which I ignored as it did not have a huge impact on the data) so the data preprocessing was fairly simple. The y feature labels were divided into a ratio of 60:40 and therefore oversampling/undersampling of the y feature samples could be ignored.
 
 This github repo has the following files:
 
